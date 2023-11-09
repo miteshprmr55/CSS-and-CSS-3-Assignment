@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*......................Navbar..................*/
+
+.navbar {
+    background-color: transparent;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo {
+    margin-left: 7%;
+}
+.logo img {
+    width: 100px;
+}
+.navbar ul {
+    display: flex;
+    margin-right: 7%;
+}
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    /* background-color: yellow; */
+    padding: 15px;
+    border-bottom: 1px solid transparent;
+}
+.navbar ul li a:hover {
+    color: #e74c3c;
+    border-bottom: 1px solid #e74c3c;
+    transition-delay: 0.15s;
+}
+
+/* ................home............... */
+.home {
+    background-image: url(homebg.jpg);
+    width: 100%;
+    height: 786px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.separator {
+    width: 10px;
+    height: 10px;
+    margin: 35px auto;
+    background: #e74c3c;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.separator:before {
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.separator:after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.cntnc {
+    position: absolute;
+    margin-top: 15%;
+}
+
+.onec {
+    width: fit-content;
+    font-size: 1.714rem;
+    line-height: 2.5rem;
+    color: #fff;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.twoc {
+    font-family: sans-serif;
+    font-size: 5.143rem;
+    line-height: 5.5rem;
+    color: #fff;
+    letter-spacing: 4px;
+    margin-top: 8px;
+}
+
+.three {
+    width: 47%;
+    margin: auto;
+    font-size: 17px;
+    color: white;
+    max-width: 60%;
+    padding-bottom: 30px;
+}
+
+.btn-1 {
+        color: white;
+        text-decoration: none;
+        background-color: #e74c3c;
+        padding: 16px;
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        border-radius: 2px;
+}
+.btn-1:hover {
+    border-radius: 2px;
+    color: white;
+    box-shadow: 1px 1px 2px 0px white;
+    padding: 17px;
+    transition-delay: 0.10s;
+}
+ .btn-2 {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 16px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 2px;
+    margin-left: 14px;
+ }
+ .btn-2:hover {
+    border-radius: 2px;
+    color: white;
+    box-shadow: 1px 1px 2px 0px white;
+    background-color: #e74c3c;
+    padding: 17px;
+    transition-delay: 0.10s;
+ }
+
+ .scrooldown {
+    position: absolute;
+    left: 48.5%;
+    bottom: -75%;
+    width: 40px;
+    height: 40px;
+    line-height: 48px;
+    background: #f4f5f9;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 9;
+}
+.scrooldown a i {
+    font-size: 1.5rem;
+    color: #e74c3c;
+}
+
+/* ..................row.................. *//
+
+
+
+.f-1 {
+    border: 1px solid #ddd;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    transition: all 0.6s;
+    text-align: center;
+    /* margin: 20px auto; */
+}
+.f-1 .fa-clone {
+    /* margin-bottom: 30px; */
+    color: #e74c3c;
+    transition: all 0.6s;
+}
+.fa-heart-o {
+    color: #e74c3c;
+    transition: all 0.6s;
+}
+.fa-lightbulb-o {
+    color: #e74c3c;
+    transition: all 0.6s;
+}
+.fa-comments-o {
+    color: #e74c3c;
+    transition: all 0.6s;
+}
+
+.row .sec-1 :hover.f-1 {
+    border-color: #e74c3c;
+    transform: rotate(45deg);
+}
+.row .sec-1 :hover.head-4 {
+    color: #e74c3c;
+    transition: all 0.6s;
+}
+
+.sec-1 {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-4 {
+    font-family: 'open_sanssemibold';
+    font-size: 1.286rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 4%;
+    text-transform: uppercase;
+    color: #797979;
+
+}
+.separator3 {
+    height: 2px;
+    width: 40px;
+    margin: 20px auto;
+    margin-top: 0;
+    background: #888;
+}
+.lrm-1 {
+    width: 48%;
+    text-align: center;
+    color: #797979;
+}
+
+.row-1 {
+    display: flex;
+    margin-top: 7%;
+}

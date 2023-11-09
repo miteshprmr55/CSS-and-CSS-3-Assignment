@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+}
+
+.grid-items{
+    width: auto;
+    height: auto;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    border: solid 0px black;
+}
+.grid{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+}
+.item1{
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    background: url(2023-mercedes-amg-gt-exterior-16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item2{
+    grid-row: 1 / span 4;
+    grid-column: 6;
+    color: white;
+    padding-right: 12%;
+    text-align: end;
+}
+ul{
+    text-decoration: none;
+}
+ul li{
+    text-decoration: none;
+    padding-right: 0%;
+    list-style: none;
+    text-align: end;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    text-align: end;
+    font-size: 15px;
+    text-decoration-line: none;
+    padding: 2% 0%;
+}
+
+a:hover {
+    color: red;
+}
+.item3{
+    background: url(auto-2179220_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.item4{
+    background: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.item5{
+    background: url(front-left-side-47.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.item6{
+    grid-column: 3 / span 3;
+    grid-row: 2;
+    background: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.item7{
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    background: url(mercedes-3417100_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.item8{
+    background: url(channels4_profile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.item9{
+    background: url(photo-1616788494707-ec28f08d05a1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.item10{
+    background: url(th.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+ .item11{
+    grid-column: 3 / span 3;
+    grid-row: 4;
+    background: url(2023-mercedes-amg-gt-exterior-16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+
+.color {
+    color:red;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+
+    .item2{
+        grid-row: 1 / span 4;
+        grid-column: 6;
+        color: white;
+        padding-right: 12%;
+        text-align: end;
+        background-color: blue;
+    }
+}
